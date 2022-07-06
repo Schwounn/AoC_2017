@@ -51,7 +51,6 @@ def get_neighbors(x, y):
 
 def part2():
     data = read_input()
-    current_val = 1
     coord_to_val = {(0, 0): 1}
     i = 2
     while True:
