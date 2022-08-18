@@ -50,6 +50,5 @@ def part2():
     return "".join(map(lambda i: f"{i:02X}", dense))
 
 
-
 if __name__ == '__main__':
     print(part1(), part2())
